@@ -6,7 +6,7 @@ import { HomeComponent} from './home/home.component';
 
 
 export const  routes: Routes = [
-   { path: 'home', component: HomeComponent,children:[
+   { path: 'home', component: HomeComponent,children:[ //Child Routing
        { path: 'firstblock', component: FirstblockComponent },
        { path: 'secondblock', component: SecondblockComponent }
    ] 
